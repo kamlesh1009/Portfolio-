@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page title</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <div id="header">
+       <div class="container">
+           <nav>
+               <div class="logo"><span>K</span>amlesh</div>
+               <ul id="sidemenu">
+                   <li><a href="#header">Home</a></li>
+                   <li><a href="#about">About</a></li>
+                   <li><a href="#services">Services</a></li>
+                   <li><a href="#portfolio">Portfolio</a></li>
+                   <li><a href="#contact">Contact</a></li>
+                   <i class="fas fa-times" onclick="closemenu()"></i>
+               </ul>
+               <i class="fas fa-bars" onclick="openmenu()"></i>
+           </nav>
+           <div class="header-text">
+               <p>Web Developer</p>
+               <h1>Hi, I'm <span>Kamlesh</span> Mali<br> From India </h1>
+           </div>
+       </div>
+    </div>
+    
+    
+    
+    
+    
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="pic.jpg" alt="userpic"></img>
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a recently final year MCA student with a strong enthusiasm for all things tech. My academic
+journey has provided me with a solid foundation in computer science, and, programming and I'm
+eager to apply my knowledge to real-world projects. </p>
+                    <div class="tab-titles active-link" >
+                        <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                         <p class="tab-links" onclick="opentab('education')">Education</p>
+                        
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>JAVA Programming</span><br>Core Java</li>
+                            <li><span>WEB DEVELOPMENT</span><br>HTML/CSS/JavaScript</li>
+                            <li><span>Database</span><br>My SQL</li>
+                            <li><span>ASP.Net</span><br>MVC architecture With C#</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020</span><br>HSC from MHSS jr College Sindkheda</li>
+                            <li><span>2023</span><br>B.sc Computer Science from NMU Jalgaon </li>
+                            <li><span>2025</span><br>Pursuing MCA From NMU Jalgaon</li>
+                          
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    <div id="services">
+        <div class="container">
+             <h1 class="sub-title">My Services</h1>
+             <div class="services-list">
+                 <div class="services-block">
+                     <i class="fa-solid fa-code i"></i>
+                     <h2 class="service-name">Web Development</h2>
+                     <p>Dedicated Web Developer with expertise in designing and building responsive websites and web applications using HTML, CSS, JavaScript, and modern frameworks. </p>
+                     <a href="#" class="service-a">Learn more</a>
+                     
+                 </div>
+                 <div class="services-block">
+                      <i class="fa-solid fa-crop-alt i"></i>
+                     <h2 class="service-name">UI/UX design</h2>
+                     <p>Creative UI/UX Designer with a strong focus on crafting intuitive, user-centered designs for web and mobile applications.</p>
+                     <a href="#" class="service-a">Learn more</a>
+                     
+                 </div>
+             </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work1.jpg" alt="workimg"></img>
+                    <div class="layer">
+                     <h3>Netflix Home Page UI</h3>
+                     <p>A visually engaging, responsive clone of the Netflix home page with dynamic content display and interactive user interface.</p>
+                     <a href="https://mysite009kv.netlify.app/"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+              </div>
+                <div class="work">
+                    <img src="work2.jpg" alt="workimg"></img>
+                    <div class="layer">
+                     <h3>My Portfolio</h3>
+                     <p>A dynamic and responsive portfolio showcasing my skills, projects, and experience in web development and technology.</p>
+                     <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+                </div>
+                <div class="work">
+                    <img src="work3.jpg" alt="workimg"></img>
+                    <div class="layer">
+                     <h3>Music App</h3>
+                     <p>Working On It</p>
+                     <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+              </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    
+    
+    
+    
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>kamleshmali749884@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>+917498849366</p>
+                    <div class="social-icons">
+                    <a href="https:/facebook.com">    <i class="fab fa-facebook"></i> </a>
+                    <a href="#">  <i class="fab fa-twitter-square"></i> </a>
+                    <a href="#">    <i class="fab fa-instagram"></i> </a>
+                    <a href="#">   <i class="fab fa-linkedin"></i> </a>
+                    </div>
+                    <a href="Kamlesh1_CV.pdf" class="btn btn2" download>Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Kamlesh. Made with <i class="fas fa-heart"></i> By Easy Tutorial</p>
+        </div>
+    </div>
+    
+    
+    
+    
+   <script src="script.js"></script>
+   <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzuZKSq8-ROjK9v0SD-C2QJuhbBtCsFMSZY9hIbfaHmU1D2-yRewWfnPRgK4lMKvclk/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
